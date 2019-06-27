@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "261f29375b62590c187733d54823b76c",
+    "content-hash": "8bc17146cd0a6f64719983c0c729177c",
     "packages": [
         {
             "name": "asm89/twig-lint",
@@ -86,10 +86,6 @@
                 "MIT"
             ],
             "description": "Render templates using Twig PHP, via this Node JS renderer.",
-            "support": {
-                "source": "https://github.com/basaltinc/twig-renderer/tree/master",
-                "issues": "https://github.com/basaltinc/twig-renderer/issues"
-            },
             "time": "2019-05-02T21:18:22+00:00"
         },
         {
@@ -136,8 +132,8 @@
             "version": "2.5.2",
             "dist": {
                 "type": "path",
-                "url": "https://api.github.com/repos/bolt-design-system/core-php/zipball/ba70b7da2d30e809c8cb4de94565f115b2c2251c",
-                "reference": "ba70b7da2d30e809c8cb4de94565f115b2c2251c",
+                "url": "twig-extensions/core-php",
+                "reference": "fa6ec321f00d5bb637158d5c2ca24827fc9004ac",
                 "shasum": null
             },
             "require": {
@@ -188,12 +184,17 @@
         },
         {
             "name": "bolt-design-system/drupal-twig-extensions",
-            "version": "2.4.0",
+            "version": "2.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bolt-design-system/drupal-twig-extensions.git",
+                "reference": "3159350aeb951fe0c77aaaaef7abb5c58f941b11"
+            },
             "dist": {
-                "type": "path",
-                "url": "drupal-twig-extensions",
-                "reference": "f5939913e3ce84896f84d7e639557fa99b8e3882",
-                "shasum": null
+                "type": "zip",
+                "url": "https://api.github.com/repos/bolt-design-system/drupal-twig-extensions/zipball/3159350aeb951fe0c77aaaaef7abb5c58f941b11",
+                "reference": "3159350aeb951fe0c77aaaaef7abb5c58f941b11",
+                "shasum": ""
             },
             "require": {
                 "drupal/core-render": "^8.0.0",
@@ -205,11 +206,7 @@
                     "Drupal\\Core\\": "src/Core"
                 }
             },
-            "scripts": {
-                "setup": [
-                    "@composer install --no-interaction --prefer-dist --no-progress"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -222,7 +219,8 @@
                     "name": "Evan Lovely"
                 }
             ],
-            "description": "Extra Twig extensions for adding Drupal-specific functionality to the Bolt Design System"
+            "description": "Extra Twig extensions for adding Drupal-specific functionality to the Bolt Design System",
+            "time": "2019-06-27T15:24:04+00:00"
         },
         {
             "name": "drupal/core-render",

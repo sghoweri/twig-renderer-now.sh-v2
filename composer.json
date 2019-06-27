@@ -6,14 +6,10 @@
     "psr-4": {
       "BasaltInc\\TwigRenderer\\": "vendor/basaltinc/twig-renderer/src/",
       "Bolt\\": "twig-extensions/core-php/src",
-      "Drupal\\Core\\": "twig-extensions/drupal-twig-extensions/src/Core"
+      "Drupal\\Core\\": "vendor/bolt-design-system/drupal-twig-extensions/src/Core"
     }
   },
   "repositories": [
-    {
-      "type": "path",
-      "url": "twig-extensions/drupal-twig-extensions"
-    },
     {
       "type": "path",
       "url": "twig-extensions/core-php"
@@ -30,7 +26,7 @@
     "react/http": "^0.8.3",
     "basaltinc/twig-renderer": "dev-master",
     "bolt-design-system/core-php": "*",
-    "bolt-design-system/drupal-twig-extensions": "*",
+    "bolt-design-system/drupal-twig-extensions": "^2.5.2",
     "webmozart/path-util": "*",
     "symfony/finder": "*"
   }
