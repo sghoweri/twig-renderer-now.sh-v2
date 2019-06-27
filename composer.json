@@ -1,0 +1,37 @@
+{
+  "name": "bolt-design-system/twig-renderer",
+  "description": "POC rendering PHP-based Twig templates on now.sh v2",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "BasaltInc\\TwigRenderer\\": "vendor/basaltinc/twig-renderer/src/",
+      "Bolt\\": "twig-extensions/core-php/src",
+      "Drupal\\Core\\": "twig-extensions/drupal-twig-extensions/src/Core"
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "twig-extensions/drupal-twig-extensions"
+    },
+    {
+      "type": "path",
+      "url": "twig-extensions/core-php"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/basaltinc/twig-renderer",
+      "no-api": true
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "twig/twig": "^1.0.0",
+    "react/http": "^0.8.3",
+    "basaltinc/twig-renderer": "dev-master",
+    "bolt-design-system/core-php": "*",
+    "bolt-design-system/drupal-twig-extensions": "*",
+    "webmozart/path-util": "*",
+    "symfony/finder": "*"
+  }
+}

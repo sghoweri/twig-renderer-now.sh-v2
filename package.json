@@ -1,0 +1,24 @@
+{
+  "name": "@bolt/twig-renderer-now-v2",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "POC rendering PHP-based Twig templates on now.sh v2",
+  "maintainers": [
+    {
+      "name": "Salem Ghoweri",
+      "email": "me@salemghoweri.com",
+      "web": "https://github.com/sghoweri"
+    }
+  ],
+  "scripts": {
+    "setup": "composer install --prefer-dist --no-dev",
+    "start": "php -S localhost:8080 index.php"
+  },
+  "dependencies": {
+    "@bolt/components-button": "^2.5.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://boltdesignsystem.com"
+}

@@ -1,0 +1,47 @@
+{
+  "relativeFrom": "./",
+  "src": {
+    "roots": [
+      ""
+    ],
+    "namespaces": [
+      {
+        "id": "bolt",
+        "paths": [
+          "components/bolt-button",
+          "components/bolt-button/src",
+          "components/bolt-icon",
+          "components/bolt-icon/src"
+        ]
+      },
+      {
+        "id": "bolt-components-icon",
+        "paths": [
+          "components/bolt-icon",
+          "components/bolt-icon/src"
+        ]
+      },
+      {
+        "id": "bolt-components-button",
+        "paths": [
+          "components/bolt-button",
+          "components/bolt-button/src"
+        ]
+      }
+    ]
+  },
+  "debug": true,
+  "alterTwigEnv": [
+    {
+      "file": "SetupTwigRenderer.php",
+      "functions": [
+        "addBoltCoreExtensions"
+      ]
+    }
+  ],
+  "hasExtraInfoInResponses": false,
+  "maxConcurrency": 50,
+  "keepAlive": false,
+  "autoescape": false,
+  "verbose": false
+}

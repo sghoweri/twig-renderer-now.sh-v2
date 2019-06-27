@@ -1,0 +1,1 @@
+To test, run `npm run start` and run go to http://localhost:8080/?templatePath=@bolt-components-button/button.twig&text=hello world
